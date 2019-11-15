@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ActivityControls">
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:fontFamily="cursive"
+        android:text="Hello World"
+        android:textColor="@color/colorPrimary"
+        android:textSize="75dp" />
+
+    <TextView
+        android:id="@+id/txtId2"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtId"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="CCIT FT UI"
+        android:textColor="@color/colorPrimary"
+        android:textSize="70dp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Contoh TextView"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
